@@ -6,7 +6,7 @@ The project is not complete.
 
 As of Feb 22, 2017 
  * The GPU I am using are running out of memory. ( tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator) Pool allocator is taking a lot of time if I train it on more than few 100's of audio files.
- * I am still testing, so the Neural Network is not deep. I am using only train dataset and no test or validation data sets. I am trying to get the network to memorize train dataset.
+ * I am still testing, so the Neural Network is not deep. I am using only train dataset and no test or validation data sets.
 
 ## Data
 I made use of the LibriSpeech ASR corpus. 
